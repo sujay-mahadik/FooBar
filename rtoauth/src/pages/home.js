@@ -9,6 +9,9 @@ import {
 import { withFirebase } from '../components/Firebase';
 import Messages from '../components/Messages';
 
+//Author: Sujay
+import { Card, Elevation } from '@blueprintjs/core';
+
 class HomePageBase extends Component {
   _initFirebase = false;
 
@@ -46,12 +49,18 @@ class HomePageBase extends Component {
 
   render() {
     return (
-      <Fragment>
-        <h1>Home Page</h1>
-        <p>The Home Page is accessible by every signed in user.</p>
+      <Card elevation={Elevation.TWO}>
+    <h2>Home Page</h2>
+    <p>
+      Maps to be added
+    </p>
+    </Card>
+      // <Fragment>
+      //   <h1>Home Page</h1>
+      //   <p>The Home Page is accessible by every signed in user.</p>
 
-        <Messages users={this.state.users} />
-      </Fragment>
+      //   <Messages users={this.state.users} />
+      // </Fragment>
     );
   }
 }
@@ -66,6 +75,6 @@ const HomePage = compose(
 
 export default () => (
   <Layout>
-    <HomePage />
+    <HomePageBase />
   </Layout>
 );

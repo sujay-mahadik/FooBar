@@ -1,5 +1,6 @@
 //add the config here
 
+
 class Firebase {
   constructor(app) {
     app.initializeApp(config);
