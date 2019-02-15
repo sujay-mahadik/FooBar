@@ -37,6 +37,10 @@ public/
 
 # sujay
 .env
+<<<<<<< HEAD
 
 # ishan
 src/components/Firebase/firebase.js
+=======
+*.txt
+>>>>>>> a45e424408e669893832227fdf93a5c32abda2f4
