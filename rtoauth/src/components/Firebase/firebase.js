@@ -1,5 +1,6 @@
 //add the config here
 
+import config from './secrets/config';
 class Firebase {
   constructor(app) {
     app.initializeApp(config);

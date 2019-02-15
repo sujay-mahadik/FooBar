@@ -37,3 +37,6 @@ public/
 
 # sujay
 .env
+
+# ishan
+src/components/Firebase/firebase.js
