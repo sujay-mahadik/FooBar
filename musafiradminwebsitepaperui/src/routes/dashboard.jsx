@@ -26,12 +26,12 @@ var dashRoutes = [
   //   icon: "nc-icon nc-bell-55",
   //   component: Notifications
   // },
-  {
-    path: "/user-page",
-    name: "User Profile",
-    icon: "nc-icon nc-single-02",
-    component: UserPage
-  },
+  // {
+  //   path: "/user-page",
+  //   name: "User Profile",
+  //   icon: "nc-icon nc-single-02",
+  //   component: UserPage
+  // },
   // {
   //   path: "/tables",
   //   name: "Table List",
