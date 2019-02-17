@@ -1,17 +1,31 @@
 import Dashboard from "views/Dashboard/Dashboard.jsx";
-import Notifications from "views/Notifications/Notifications.jsx";
+// import Notifications from "views/Notifications/Notifications.jsx";
 // import Icons from "views/Icons/Icons.jsx";
 // import Typography from "views/Typography/Typography.jsx";
 // import TableList from "views/TableList/TableList.jsx";
 import Maps from "views/Maps/Maps.jsx";
-import UserPage from "views/UserPage/UserPage.jsx";
+import Login from "../../src/layouts/Login/Login.jsx";
+//import UserPage from "views/UserPage/UserPage.jsx";
 
 var dashRoutes = [
+  {
+    path: "/login",
+    name: "Login",
+    icon: "nc-icon nc-key-25",
+    component: Login
+  },
+
   {
     path: "/dashboard",
     name: "Dashboard",
     icon: "nc-icon nc-bank",
     component: Dashboard
+  },
+  {
+    path: "/map",
+    name: "Map",
+    icon: "nc-icon nc-pin-3",
+    component: Maps
   },
   // {
   //   path: "/icons",
@@ -19,7 +33,7 @@ var dashRoutes = [
   //   icon: "nc-icon nc-diamond",
   //   component: Icons
   // },
-  { path: "/maps", name: "Map", icon: "nc-icon nc-pin-3", component: Maps },
+  
   // {
   //   path: "/notifications",
   //   name: "Notifications",

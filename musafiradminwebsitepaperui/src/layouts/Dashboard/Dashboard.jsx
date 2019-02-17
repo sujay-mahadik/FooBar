@@ -1,16 +1,16 @@
 import React from "react";
 // javascript plugin used to create scrollbars on windows
-import PerfectScrollbar from "perfect-scrollbar";
+//import PerfectScrollbar from "perfect-scrollbar";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+//import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 
-var ps;
+//var ps;
 
 class Dashboard extends React.Component {
   constructor(props){

@@ -35,7 +35,7 @@ class Sidebar extends React.Component {
       <div className="sidebar" data-color={this.props.bgColor} data-active-color={this.props.activeColor}>
         <div className="logo">
           <a
-            href="#"
+            href="/"
             className="simple-text logo-mini"
           >
             <div className="logo-img">
@@ -43,7 +43,7 @@ class Sidebar extends React.Component {
             </div>
           </a>
           <a
-            href="#"
+            href="/"
             className="simple-text logo-normal"
           >
             Musafir
